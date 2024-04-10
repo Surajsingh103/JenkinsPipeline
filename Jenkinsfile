@@ -1,6 +1,6 @@
 pipeline{
     agent any
-    tools {maven 'M7'}
+    tools {maven 'M1'}
     stages {
         stage('Checkout'){
             steps{
